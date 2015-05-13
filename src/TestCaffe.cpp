@@ -24,8 +24,8 @@ void Log(std::string msg)
 }
 // CPU Only : Need to define symbols in preprocessor CPU_ONLY=1
 int main() {
-    std::string model_path = "/home/darrenl/developments/caffe-android-lib/caffe-mobile/jni/caffe/models/bvlc_reference_caffenet/deploy_mobile.prototxt";
-    std::string weights_path = "/home/darrenl/developments/caffe-android-lib/caffe-mobile/jni/caffe/models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel";
+    std::string model_path = "/home/darrenl/workspace/eclipse_clusplus_workspace/TestCaffe/bvlc_reference_deploy_memorylayer.prototxt";
+    std::string weights_path = "/home/darrenl/workspace/eclipse_clusplus_workspace/TestCaffe/bvlc_reference_caffenet.caffemodel";
     std::string image_path = "/home/darrenl/cat.jpg";
     // Use CPU only.
     Caffe::set_mode(Caffe::CPU);
