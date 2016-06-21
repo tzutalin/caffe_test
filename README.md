@@ -12,7 +12,7 @@ Have [installed Caffe depedencies successfully](http://caffe.berkeleyvision.org/
 
 * Download the model:
 
-`$ ./get_model.py`
+`$ cd data; sh download_caffe_model.sh`
 
 * Build Caffe
 
